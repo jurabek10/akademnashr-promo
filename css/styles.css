@@ -1,14 +1,23 @@
+.body {
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+/* Site header */
 .header {
     background: #FFFFFF;
 }
 
+/* Site navbar */
 .sitenav-list {
     list-style-type: none;
 }
 
 .nav-item {
+    font-family: 'Roboto', "Arial" sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1px;
@@ -17,15 +26,18 @@
     text-decoration: none;
 }
 
+/* Main link */
 .main-link {
+    font-family: 'Roboto', "Arial" sans-serif;
     font-size: 13px;
     line-height: 15px;
     background-color: #FF7500;
     color: #FFFFFF;
     text-decoration: none;
-    letter-spacing: 0.5px;
 }
 
+
+/* Hero */
 .hero {
     background-color: #252420;
     color: #FFFFFF;
@@ -47,22 +59,18 @@
 }
 
 .hero-heading {
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
 }
 
-.hero-text {
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-}
 
+/* Feautures */
 .feautures-heading {
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
-    letter-spacing: 0,5x;
     color: #000000;
 }
 
@@ -77,20 +85,20 @@
     background-color: rgba(255, 117, 0, 0.2);
 }
 
+
+/* Card */
 .card-heading {
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5x;
     color: #000000;
 }
 
 .card-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5x;
     color: #000000;
 }
 
+/* Promo */
 .promo {
     background-color: #252420;
     color: #FFFFFF;
@@ -101,18 +109,14 @@
 }
 
 .promo-heading {
+    font-family: 'Roboto Condensed', "Arial" sans-serif;
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5x;
 }
 
-.promo-text {
-    font-size: 16px;
-    line-height: 48px;
-    letter-spacing: 0.5px;
-}
 
 .promo-highlight {
+    font-family: 'Roboto', "Arial" sans-serif;
     color: #FF7500;
 }
 
@@ -121,6 +125,7 @@
     height: 440px;
 }
 
+/* Site footer */
 .site-footer {
     background-color: #F8F8F8;;
 }
@@ -137,11 +142,10 @@
 
 .site-footer-links {
     width: 224x;
+    line-height: 19px;
 }
 
 .site-footer-links a {
     text-decoration: none;
     color: #252420;
-    font-size: 16px;
-    line-height: 19px;
 }
