@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -10,6 +16,16 @@ body {
     outline-offset: 3px;
 }
 
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Site header */
 .header {
     display: flex;
@@ -19,6 +35,12 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     background: #FFFFFF;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-link {
@@ -54,9 +76,9 @@ body {
     margin-right: 32px;
 }
 
-.sitenav-item:last-child {
+/* .sitenav-item:last-child {
     margin-right: 0;
-} 
+}  */
 
 
 .nav-item {
@@ -106,13 +128,16 @@ body {
 
 /* Hero */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #252420;
     color: #FFFFFF;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content {
@@ -132,6 +157,7 @@ body {
     width: 510px;
     height: 510px;
     border-radius: 8px;
+    box-shadow: 24px 24px 0 rgba(255, 117, 0, 0.6);
 }
 
 .hero-heading {
@@ -188,6 +214,7 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
+    margin-bottom: 32px;
     background-color: rgba(255, 117, 0, 0.2);
     border-radius: 50%;
 }
@@ -198,22 +225,34 @@ body {
     font-family: 'Roboto Condensed', "Arial", sans-serif;
     font-size: 24px;
     line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 12px;
     color: #000000;
 }
 
 .card-text {
+    margin: 0;
     color: #000000;
 }
 
 /* Promo */
+
 .promo {
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+
+.promo-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 64px;
     border-radius: 12px;
     background-color: #252420;
     color: #FFFFFF;
 }
+
 
 .promo-content {
     width: 440px;
@@ -333,6 +372,14 @@ body {
 
 .site-footer-links:last-child{
     margin-right: 0;
+}
+
+.site-footer-links li {
+    margin-bottom: 16px;
+}
+
+.site-footer-links li:last-child {
+    margin-bottom: 0;
 }
 
 
