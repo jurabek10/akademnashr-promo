@@ -108,7 +108,7 @@ body {
     color: #000000;
     text-decoration: none;
     transition: color 0.4s ease,
-      opacity 0.4s ease;
+        opacity 0.4s ease;
 }
 
 .nav-item:hover {
@@ -151,6 +151,7 @@ body {
 }
 
 .hero-container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -170,6 +171,9 @@ body {
 }
 
 .hero-img {
+    position: absolute;
+    right: 20px;
+    top: -40px;
     width: 510px;
     height: 510px;
     border-radius: 8px;
@@ -260,6 +264,7 @@ body {
 
 
 .promo-inner {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -302,6 +307,9 @@ body {
 }
 
 .promo-img {
+    position: absolute;
+    bottom: 64px;
+    right: 64px;
     width: 440px;
     height: 440px;
     border-radius: 12px;
