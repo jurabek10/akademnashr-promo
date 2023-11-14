@@ -430,6 +430,11 @@ body {
 
 
 @media only screen and (max-width: 1140px) {
+    .feauture {
+        width: 30%;
+        margin-right: 5%;
+    }
+    
     .site-footer__links {
         width: 20.36%;
         margin-right: 6.18%;
@@ -437,7 +442,27 @@ body {
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .feautures {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+}
+
+
 @media only screen and (max-width: 760px) {
+    .feautures {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    
+    
+    .feautures-heading {
+        font-size: 54px;
+        margin-bottom: 54px;
+    }
+    
     .site-footer__bottom {
         flex-wrap: wrap;
     }
@@ -454,6 +479,26 @@ body {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .feautures-list {
+        flex-wrap: wrap;
+    }
+    
+    .feauture {
+        width: 47%;
+        margin-right: 6%;
+        margin-bottom: 36px;
+    }
+    
+    .feauture:nth-child(2n) {
+        margin-right: 0;
+    }
+    
+    .feautures-icon-wrapper {
+        margin-bottom: 16px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     .site-footer__links {
@@ -466,13 +511,38 @@ body {
     .site-footer__links:nth-child(3n) {
         margin-right: 8%;
     }
-
+    
     .site-footer__links:nth-child(2n) {
         margin-right: 0;
     }
 }
 
 @media only screen and (max-width: 530px) {
+    .orange-line {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    .feautures-heading {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .feautures-list {
+        flex-direction: column;
+    }
+    
+    .feauture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 46px;
+        text-align: center;
+    }
+    
     .site-footer {
         padding-top: 36px;
         padding-bottom: 36px;
@@ -481,7 +551,7 @@ body {
     .site-footer__top {
         flex-direction: column;
     }
-
+    
     .site-footer__logo--link {
         margin-right: 0;
         margin-bottom: 24px;
@@ -489,15 +559,25 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    .feautures {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .feautures-heading {
+        font-size: 36px;
+    }
+    
+    
     .site-footer__links {
         width: 100%;
         margin-right: 0%;
     }
-
+    
     .site-footer__links:last-child {
         margin-bottom: 0;
     }
-
+    
     .site-footer__links:nth-child(3n) {
         margin-right: 0;
     }
